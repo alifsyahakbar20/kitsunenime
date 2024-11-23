@@ -1,3 +1,3 @@
 <x-app-layout title="Dashboard">
-    <p>Selamat datang di halaman dashboard. Ini adalah konten utama.</p>
+    <p>Selamat datang {{ auth()->user()->name }}.</p>
 </x-app-layout>
